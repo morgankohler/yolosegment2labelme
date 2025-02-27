@@ -12,6 +12,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = ['numpy', 'opencv-python', 'pillow', 'ultralytics']
+keywords = ['python', 'yolo', 'segmentation', 'json', 'labelme', 'anylabeling']
+
+[project.scripts]
+yolosegment2labelme = "yolosegment2labelme.yolosegment2labelme:main"
 
 [project.urls]
 Homepage = "https://github.com/Abonia1/yolosegment2labelme"

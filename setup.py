@@ -23,18 +23,6 @@ setup(
     download_url = 'https://github.com/Abonia1/yolosegment2labelme/archive/refs/tags/v0.3.zip',  
     long_description=long_description,
     packages=find_packages(),
-    install_requires=[
-        'numpy',
-        'opencv-python',
-        'pillow',
-        'ultralytics'
-    ],
-    entry_points={
-        'console_scripts': [
-            'yolosegment2labelme = yolosegment2labelme.yolosegment2labelme:main'
-        ]
-    },
-    keywords=['python', 'yolo', 'segmentation', 'json', 'labelme', 'anylabeling'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
